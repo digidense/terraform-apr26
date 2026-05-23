@@ -1,2 +1,2 @@
-dev_bucket = "rajivbucket"
+dev_bucket = "digi-rajivbucket"
 env        = "dev"
