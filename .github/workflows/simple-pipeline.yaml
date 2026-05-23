@@ -24,7 +24,7 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::017341176608:role/tf-pipeline-digidense
+          role-to-assume: arn:aws:iam::017341176608:role/github-pipeline-role
           aws-region: us-east-1
 
       # ================= Terraform =================
